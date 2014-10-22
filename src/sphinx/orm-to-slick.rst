@@ -95,7 +95,7 @@ Java APIs like Hibernate Criteria Queries do not use Scala's operator overloadin
 
 .. includecode:: code/OrmToSlick.scala#criteriaComposition
 
-With Scala's operator overloading we can do better and that's what Slick uses. Queries are very concise. The same query in Slick would look like this:
+With Scala's operator overloading we can do better; queries become very concise. The same query in Slick would look like this:
 
 .. includecode:: code/OrmToSlick.scala#slickQuery
 
