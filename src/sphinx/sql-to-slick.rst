@@ -225,7 +225,7 @@ Scala's groupBy returns a Map of grouping keys to Lists of the rows for each gro
 
 .. includecode:: code/SqlToSlick.scala#slickQueryGroupBy
 
-SQL requires to aggregate grouped values. We require the same in Slick for now. This means a ``groupBy`` call must be followed by a ``map`` call or will fail with an Exception. This makes Slick's grouping syntax a bit more complicated than SQL's. We may lift this restriction by providing an alternative method with a different signature at some point.
+SQL requires aggregating grouped values. We require the same in Slick for now. This means a ``groupBy`` call must be followed by a ``map`` call or will fail with an Exception. This makes Slick's grouping syntax a bit more complicated than SQL's. We may lift this restriction by providing an alternative method with a different signature at some point.
 
 .. index:: HAVING
 
